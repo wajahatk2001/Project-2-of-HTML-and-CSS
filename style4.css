@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.Dheader{
+    background-color: black;
+    padding: 1em;
+}
+.Dheader ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+.Dheader li{
+    display: inline;
+}
+.Dheader a{
+    color: white; 
+    font-size: 23px; 
+    margin-left: 15px; 
+    text-decoration: none;
+}
+.Dheader a:not(.LOGO):hover{
+    color: orangered;
+    transition: 1s;
+  }
+
+.Dheader .LOGO{
+    color: white; 
+    text-decoration: none; 
+    font-weight: bolder; 
+    font-size: 50px; 
+    margin: 0; 
+    display: inline;
+    
+}
+.policy{
+    padding: 10px;
+}
+
+h1{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-decoration: underline;
+}
+h2{
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 18px;
+}
+.privacy ul{
+    list-style: inside;
+}
+.privacy li{
+    font-size: 16px;
+}
+.webfooter{
+    background-color: black; 
+    padding-bottom: 4px;
+}
+.webfooter p{
+    color: white; 
+    font-size: 28px; 
+    text-align: center;"
+}
+@media (max-width: 992px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 40px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .policy{
+        padding: 10px;
+    }
+    
+    h1{
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 7px;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .privacy ul{
+        list-style: inside;
+    }
+    .privacy li{
+        font-size: 16px;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 22px; 
+        text-align: center;"
+    }
+}
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        font-size: 10px;
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 35px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .policy{
+        padding: 10px;
+    }
+    
+    h1{
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 7px;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .privacy ul{
+        list-style: inside;
+    }
+    .privacy li{
+        font-size: 14px;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 18px; 
+        text-align: center;"
+    }
+}
+
+
+@media ( max-width: 450px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        font-size: 5px;
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 30px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .policy{
+        padding: 10px;
+    }
+    
+    h1{
+        font-size: 27px;
+        margin-top: 0px;
+        margin-bottom: 7px;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .privacy ul{
+        list-style: inside;
+    }
+    .privacy li{
+        font-size: 12px;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 15px; 
+        text-align: center;"
+    }
+}

@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.Dheader{
+    background-color: black;
+    padding: 1em;
+}
+.Dheader ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+.Dheader li{
+    display: inline;
+}
+.Dheader a{
+    color: white; 
+    font-size: 23px; 
+    margin-left: 15px; 
+    text-decoration: none;
+}
+.Dheader a:not(.LOGO):hover{
+    color: orangered;
+    transition: 1s;
+  }
+
+.Dheader .LOGO{
+    color: white; 
+    text-decoration: none; 
+    font-weight: bolder; 
+    font-size: 50px; 
+    margin: 0; 
+    display: inline;
+    
+}
+.introduction h1{
+    font-size: xx-large; 
+    text-decoration: underline; 
+    text-indent: 30px; 
+    margin-bottom: 0;
+}
+.introduction h2{
+    text-indent: 40px;
+    margin-top: 5px;
+}
+.introduction .introcont{
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.introduction .intro{
+    text-align: center; 
+    font-size: 20px;
+    max-width: 1050px;  
+}
+.introduction p{
+    text-align: justify; 
+    font-size: 20px;
+    max-width: 950px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form h1{
+    font-size: xx-large; 
+    text-decoration: underline; 
+    text-indent: 70px;
+}
+.subform{
+    position: relative;
+    text-align: center; 
+    margin: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+    border: 2px solid black; 
+    max-width: 50vw;
+}
+.subform p{
+    font-weight: bold; 
+    text-decoration: underline; 
+    margin-bottom: 7px;
+}
+.subform .hear{
+    font-weight: bold; 
+    text-decoration: underline; 
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.subform input{
+    margin-bottom: 10px;
+    max-width: 40%;
+}
+.subform .formname{
+    font-size: 40px; 
+    text-decoration: underline; 
+    margin: 0;
+}
+.subform .formtype{
+    margin-top: 10px; 
+    font-weight: 600;
+}
+.subform hr{
+    margin-bottom: 10px;
+}
+.subform textarea{
+    max-width: 45vw;
+}
+.webfooter{
+    background-color: black; 
+    padding-bottom: 4px;
+}
+.webfooter p{
+    color: white; 
+    font-size: 28px; 
+    text-align: center;"
+}
+div button{
+    position: relative;
+    margin-top: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    text-align: center;
+    max-width: 20%;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer; 
+    background-color: #000;
+}
+button:hover{
+  text-transform: uppercase;
+  letter-spacing: 0.050em;
+  transition: 1s;
+  color: #000;
+  background-color: orangered;
+}
+@media (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        font-size: 10px;
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 40px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .introduction h1{
+        font-size: xx-large; 
+        text-decoration: underline; 
+        text-indent: 20px; 
+        margin-bottom: 0;
+    }
+    .introduction h2{
+        text-indent: 30px;
+        margin-top: 5px;
+    }
+    .introduction .introcont{
+        background-color: antiquewhite;
+        border: 2px solid antiquewhite;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 19px;
+    }
+    .introduction .intro{
+        text-align: center; 
+        font-size: 18px;
+        max-width: 950px;  
+    }
+    .introduction p{
+        text-align: justify; 
+        font-size: 18px;
+        max-width: 900px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form h1{
+        font-size: xx-large; 
+        text-decoration: underline; 
+        text-indent: 20px;
+    }
+    .subform{
+        position: relative;
+        text-align: center; 
+        margin: 0; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px; 
+        border: 2px solid black; 
+        max-width: 80vw;
+    }
+    .subform p{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+    }
+    .subform .hear{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+    .subform input{
+        margin-bottom: 10px;
+        max-width: 40%;
+    }
+    .subform .formname{
+        font-size: 40px; 
+        text-decoration: underline; 
+        margin: 0;
+    }
+    .subform .formtype{
+        margin-top: 10px; 
+        font-weight: 600;
+    }
+    .subform hr{
+        margin-bottom: 10px;
+    }
+    .subform textarea{
+        max-width: 75vw;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 22px; 
+        text-align: center;"
+    }
+    div button{
+        position: relative;
+        margin-top: 1.5em;
+        border: 1.5px solid white;
+        border-radius: 7px;
+        outline: none;
+        font-size: 15px;
+        padding: 3px 10px;
+        text-align: center;
+        max-width: 20%;
+        background: transparent;
+        color: aliceblue;
+        cursor: pointer; 
+        background-color: #000;
+    }
+    button:hover{
+      text-transform: uppercase;
+      letter-spacing: 0.050em;
+      transition: 1s;
+      color: #000;
+      background-color: orangered;
+    }
+}
+
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        font-size: 10px;
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 40px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .introduction h1{
+        font-size: xx-large; 
+        text-decoration: underline; 
+        text-indent: 20px; 
+        margin-bottom: 0;
+    }
+    .introduction h2{
+        text-indent: 30px;
+        margin-top: 5px;
+    }
+    .introduction .introcont{
+        background-color: antiquewhite;
+        border: 2px solid antiquewhite;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 740px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 19px;
+    }
+    .introduction .intro{
+        text-align: center; 
+        font-size: 16px;
+        max-width: 740px;  
+    }
+    .introduction p{
+        text-align: justify; 
+        font-size: 16px;
+        max-width: 730px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form h1{
+        font-size: xx-large; 
+        text-decoration: underline; 
+        text-indent: 20px;
+    }
+    .subform{
+        position: relative;
+        text-align: center; 
+        margin: 0; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px; 
+        border: 2px solid black; 
+        max-width: 80vw;
+    }
+    .subform p{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+    }
+    .subform .hear{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+    .subform input{
+        margin-bottom: 10px;
+        max-width: 40%;
+    }
+    .subform .formname{
+        font-size: 40px; 
+        text-decoration: underline; 
+        margin: 0;
+    }
+    .subform .formtype{
+        margin-top: 10px; 
+        font-weight: 600;
+    }
+    .subform hr{
+        margin-bottom: 10px;
+    }
+    .subform textarea{
+        max-width: 75vw;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 22px; 
+        text-align: center;"
+    }
+    div button{
+        position: relative;
+        margin-top: 1.5em;
+        border: 1.5px solid white;
+        border-radius: 7px;
+        outline: none;
+        font-size: 15px;
+        padding: 3px 10px;
+        text-align: center;
+        max-width: 20%;
+        background: transparent;
+        color: aliceblue;
+        cursor: pointer; 
+        background-color: #000;
+    }
+    button:hover{
+      text-transform: uppercase;
+      letter-spacing: 0.050em;
+      transition: 1s;
+      color: #000;
+      background-color: orangered;
+    }
+}
+
+@media ( max-width: 450px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .Dheader{
+        background-color: black;
+        padding: 1em;
+    }
+    .Dheader ul{
+        font-size: 5px;
+        list-style: none;
+        padding: 0;
+        text-align: right;
+    }
+    .Dheader li{
+        display: inline;
+    }
+    .Dheader a{
+        color: white; 
+        font-size: 23px; 
+        margin-left: 15px; 
+        text-decoration: none;
+    }
+    .Dheader a:not(.LOGO):hover{
+        color: orangered;
+        transition: 1s;
+      }
+    
+    .Dheader .LOGO{
+        color: white; 
+        text-decoration: none; 
+        font-weight: bolder; 
+        font-size: 40px; 
+        margin: 0; 
+        display: inline;
+        
+    }
+    .introduction h1{
+        font-size: 23px; 
+        text-decoration: underline; 
+        text-indent: 10px; 
+        margin-bottom: 0;
+    }
+    .introduction h2{
+        font-size: 20px;
+        text-indent: 20px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .introduction .introcont{
+        background-color: antiquewhite;
+        border: 2px solid antiquewhite;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .introduction .intro{
+        margin-top: 0;
+        text-align: center; 
+        font-size: 12px;
+        max-width: 400px;  
+    }
+    .introduction p{
+        text-align: justify; 
+        font-size: 12px;
+        max-width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form h1{
+        font-size: 26px; 
+        text-decoration: underline; 
+        text-indent: 10px;
+    }
+    .subform{
+        position: relative;
+        text-align: center; 
+        margin: 0; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px; 
+        border: 2px solid black; 
+        max-width: 90vw;
+    }
+    .subform p{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+    }
+    .subform .hear{
+        font-weight: bold; 
+        text-decoration: underline; 
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+    .subform input{
+        margin-bottom: 10px;
+        max-width: 40%;
+    }
+    .subform .formname{
+        font-size: 30px; 
+        text-decoration: underline; 
+        margin: 0;
+    }
+    .subform .formtype{
+        font-size: 15px;
+        margin-top: 10px; 
+        font-weight: 600;
+    }
+    .subform hr{
+        margin-bottom: 10px;
+    }
+    .subform textarea{
+        max-width: 85vw;
+    }
+    .webfooter{
+        background-color: black; 
+        padding-bottom: 4px;
+    }
+    .webfooter p{
+        color: white; 
+        font-size: 19px; 
+        text-align: center;"
+    }
+    div button{
+        position: relative;
+        margin-top: 1.5em;
+        border: 1.5px solid white;
+        border-radius: 7px;
+        outline: none;
+        font-size: 15px;
+        padding: 3px 10px;
+        text-align: center;
+        max-width: 20%;
+        background: transparent;
+        color: aliceblue;
+        cursor: pointer; 
+        background-color: #000;
+    }
+    button:hover{
+      text-transform: uppercase;
+      letter-spacing: 0.050em;
+      transition: 1s;
+      color: #000;
+      background-color: orangered;
+    }
+ 
+}
+   
